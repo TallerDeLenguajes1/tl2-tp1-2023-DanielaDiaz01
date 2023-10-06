@@ -17,5 +17,4 @@ public class Cadeteria
     public string Telefono { get => telefono; set => telefono = value; }
     public List<Cadete> ListaCadetes { get => listaCadetes; set => listaCadetes = value; }
 
-
 }

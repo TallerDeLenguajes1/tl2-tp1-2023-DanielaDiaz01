@@ -5,7 +5,7 @@ using System.Linq;
 using EmpresaCadeteria;
 
 internal class Program
-{
+{ 
     static void Main()
     {
         //Cargo datos de archivos CSV para Cadeteria, Cadetes, y Clientes
@@ -68,7 +68,6 @@ internal class Program
 
                     Console.WriteLine("Pedido dado de alta correctamente.");
                     break;
-
                     case 2:
                         // Implementar asignar pedidos a cadetes
                         break;

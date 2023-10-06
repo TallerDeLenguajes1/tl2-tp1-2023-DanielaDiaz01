@@ -23,8 +23,7 @@ public class Cadete
     public List<Pedido>? ListaPedidos { get => listaPedidos; set => listaPedidos = value; }
 
     //metodos
-    
-    public int CantidadPedidosEntregados(){
+        public int CantidadPedidosEntregados(){
         int cantPedidosEntregados = 0;
         foreach(var p in listaPedidos){
             if(p.Estado == EstadoPedido.Entregado){ 
@@ -39,13 +38,12 @@ public class Cadete
     }
 
     public void DarDeAltaPedido(int numero, string observacion, EstadoPedido estado, Cliente cliente)
-{
+    {
     // Crea un nuevo pedido
     Pedido nuevoPedido = new Pedido(numero, observacion, estado, cliente);
 
     // Agrega el pedido a la lista de pedidos del cadete
     this.listaPedidos.Add(nuevoPedido);
-}
-
+    }
 
 }
